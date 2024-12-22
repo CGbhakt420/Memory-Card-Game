@@ -1,0 +1,27 @@
+.scoreboard {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent; /* Set background to transparent */
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f55e5e; /* Keep the title color as #333 (dark gray) */
+  }
+  
+  .score {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #f55e5e; /* Set the score text color to black */
+  }
+  
+  .score p {
+    margin: 0;
+    color: #f55e5e; /* Ensure that both score and best score are black */
+  }
+  

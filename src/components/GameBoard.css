@@ -1,0 +1,15 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+    gap: 10px;
+    padding: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    background-image: url('./eVcYPSa.png'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
